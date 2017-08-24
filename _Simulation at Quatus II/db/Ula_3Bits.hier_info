@@ -1,0 +1,56 @@
+|Ula_3Bits
+Vem_Um => Ula_1Bit:Bit0.Vem_Um
+A[0] => Ula_1Bit:Bit0.A
+A[1] => Ula_1Bit:Bit1.A
+A[2] => Ula_1Bit:Bit2.A
+B[0] => Ula_1Bit:Bit0.B
+B[1] => Ula_1Bit:Bit1.B
+B[2] => Ula_1Bit:Bit2.B
+S[0] => Ula_1Bit:Bit0.S[0]
+S[0] => Ula_1Bit:Bit1.S[0]
+S[0] => Ula_1Bit:Bit2.S[0]
+S[1] => Ula_1Bit:Bit0.S[1]
+S[1] => Ula_1Bit:Bit1.S[1]
+S[1] => Ula_1Bit:Bit2.S[1]
+S[2] => Ula_1Bit:Bit0.S[2]
+S[2] => Ula_1Bit:Bit1.S[2]
+S[2] => Ula_1Bit:Bit2.S[2]
+Vai_Um <= Ula_1Bit:Bit2.Vai_Um
+F[0] <= Ula_1Bit:Bit0.F
+F[1] <= Ula_1Bit:Bit1.F
+F[2] <= Ula_1Bit:Bit2.F
+
+
+|Ula_3Bits|Ula_1Bit:Bit0
+Vem_Um => A2.IN0
+A => X1.IN0
+B => A1.IN0
+S[0] => X1.IN1
+S[1] => A1.IN1
+S[2] => A2.IN1
+Vai_Um <= Vai_Um.DB_MAX_OUTPUT_PORT_TYPE
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ula_3Bits|Ula_1Bit:Bit1
+Vem_Um => A2.IN0
+A => X1.IN0
+B => A1.IN0
+S[0] => X1.IN1
+S[1] => A1.IN1
+S[2] => A2.IN1
+Vai_Um <= Vai_Um.DB_MAX_OUTPUT_PORT_TYPE
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ula_3Bits|Ula_1Bit:Bit2
+Vem_Um => A2.IN0
+A => X1.IN0
+B => A1.IN0
+S[0] => X1.IN1
+S[1] => A1.IN1
+S[2] => A2.IN1
+Vai_Um <= Vai_Um.DB_MAX_OUTPUT_PORT_TYPE
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+

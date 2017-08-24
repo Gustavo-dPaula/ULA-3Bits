@@ -1,0 +1,44 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Ula_3Bits_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/Ula_3Bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Ula_1Bit
+# -- Compiling architecture Comportamental_1 of Ula_1Bit
+# -- Compiling entity Ula_3Bits
+# -- Compiling architecture Comportamental_2 of Ula_3Bits
+# 
+vcom -reportprogress 300 -work work {C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/simulation/modelsim/Ula_3Bits.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Ula_3Bits_vhd_tst
+# -- Compiling architecture Ula_3Bits_arch of Ula_3Bits_vhd_tst
+vsim work.ula_3bits_vhd_tst
+# vsim work.ula_3bits_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ula_3bits_vhd_tst(ula_3bits_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ula_3bits(comportamental_2)
+# Loading work.ula_1bit(comportamental_1)
+add wave sim:/ula_3bits_vhd_tst/*
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/simulation/modelsim/wave.do}

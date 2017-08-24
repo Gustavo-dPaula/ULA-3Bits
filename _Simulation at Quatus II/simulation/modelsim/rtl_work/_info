@@ -1,0 +1,118 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Shimizu\Desktop\ULA _3Bits\ULA _3Bits\simulation\modelsim
+Eula_1bit
+Z1 w1501690128
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Shimizu\Desktop\ULA _3Bits\ULA _3Bits\simulation\modelsim
+Z7 8C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/Ula_3Bits.vhd
+Z8 FC:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/Ula_3Bits.vhd
+l0
+L6
+V:EW<8PK1m9aDlOJVkm2bi2
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1501694266.137000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/Ula_3Bits.vhd|
+Z12 !s107 C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/Ula_3Bits.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 J4m>1FzLWaNhANj^@:dR40
+!i10b 1
+Acomportamental_1
+R2
+R3
+R4
+R5
+DEx4 work 8 ula_1bit 0 22 :EW<8PK1m9aDlOJVkm2bi2
+l24
+L17
+VQ>Yn5F9T>f=4>4a3eagog3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 7z=N]a;5QQ]kB:8L`9iK`1
+!i10b 1
+Eula_3bits
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+l0
+L40
+V8VJ>KGVb?A`TXU4mDn_h]3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 JM0^SVhZ=mQNFMbQkd;mg3
+!i10b 1
+Acomportamental_2
+R2
+R3
+R4
+R5
+DEx4 work 9 ula_3bits 0 22 8VJ>KGVb?A`TXU4mDn_h]3
+l59
+L49
+VbTGk3gMm0hoSdKX0afUG92
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 oNg``OYHFgE7WMUBB2b7P1
+!i10b 1
+Eula_3bits_vhd_tst
+Z15 w1501694254
+R4
+R5
+R6
+Z16 8C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/simulation/modelsim/Ula_3Bits.vht
+Z17 FC:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/simulation/modelsim/Ula_3Bits.vht
+l0
+L30
+V?S?5[aeK9zc?c?YVEl5gP2
+!s100 FT:Eh:DG[J570IkYJ62HJ1
+R9
+32
+!i10b 1
+Z18 !s108 1501694273.266000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/simulation/modelsim/Ula_3Bits.vht|
+Z20 !s107 C:/Users/Shimizu/Desktop/ULA _3Bits/ULA _3Bits/simulation/modelsim/Ula_3Bits.vht|
+Z21 o-work work -O0
+R14
+Aula_3bits_arch
+R4
+R5
+DEx4 work 17 ula_3bits_vhd_tst 0 22 ?S?5[aeK9zc?c?YVEl5gP2
+l51
+L32
+V52f?TPgg5l7D:086Nbe0N1
+!s100 hfSUMWo1oO2Bee^n6oEQi1
+R9
+32
+!i10b 1
+R18
+R19
+R20
+R21
+R14
